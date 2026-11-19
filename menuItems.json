@@ -1,0 +1,59 @@
+{
+   "benedict": [
+   {
+      "name": "classic",
+      "fats": ["dairy butter", "non-dairy butter"],
+      "prep": ["poached"],
+      "protein": ["canadian bacon", "american bacon", "turkey bacon", "none"],
+      "toppings": ["tomatoes", "chives"],
+      "sauce": ["original", "spicy"],
+      "sides": ["hashbrowns", "fruits", "celery", "carrots", "asparagus", "none"],
+      "quantity": 1,
+      "cost": 12.99 
+   },
+   {
+      "name": "florentine",
+      "fats": ["dairy butter", "non-dairy butter"],
+      "prep": ["poached"],
+      "protein": ["canadian bacon", "american bacon", "turkey bacon", "none"],
+      "toppings": ["tomatoes", "sauteed spinach", "chives"],
+      "sauce": ["original", "spicy"],
+      "sides": ["hashbrowns", "fruits", "celery", "carrots", "asparagus", "none"],
+      "quantity": 1,
+      "cost": 14.99 
+   },
+   {
+      "name": "norwegian",
+      "fats": ["dairy butter", "non-dairy butter"],
+      "prep": ["poached"],
+      "protein": ["salmon", "none"],
+      "toppings": ["tomatoes", "chives", "avocado"],
+      "sauce": ["original", "bechemel", "spicy"],
+      "sides": ["hashbrowns", "fruits", "celery", "carrots", "asparagus", "none"],
+      "quantity": 1,
+      "cost": 15.99 
+   },
+   {
+      "name": "sardou",
+      "fats": ["dairy butter", "non-dairy butter"],
+      "prep": ["poached"],
+      "protein": ["canadian bacon", "american bacon", "turkey bacon", "none"],
+      "toppings": ["tomatoes", "creamed spinach", "chives"],
+      "sauce": ["original", "spicy"],
+      "sides": ["hashbrowns", "fruits", "celery", "carrots", "asparagus", "none"],
+      "quantity": 1,
+      "cost": 14.99 
+   },
+   {
+      "name": "princess",
+      "fats": ["dairy butter", "non-dairy butter"],
+      "prep": ["poached"],
+      "protein": ["canadian bacon", "american bacon", "turkey bacon", "none"],
+      "toppings": ["tomatoes", "chives"],
+      "sauce": ["original", "spicy"],
+      "sides": ["hashbrowns", "fruits", "celery", "carrots", "asparagus", "none"],
+      "quantity": 1,
+      "cost": 13.99 
+   }
+   ]
+}
