@@ -3,9 +3,9 @@
 // -+-+ Date: 01/12/2026     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 // -+-+ Program: Event Listeners   -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 // -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-import search from './data/data.js'
-import course from './1.5.2/itemClass.js'
-import form from './1.5.3/itemForm.js'
+import search from './data.js'
+import course from './itemClass.js'
+import form from './itemForm.js'
 
 document.addEventListener('DOMContentLoaded', () => {
 
