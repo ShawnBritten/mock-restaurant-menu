@@ -1,4 +1,4 @@
-import data from './json/menuItems.json' with { type: 'json' }
+import data from './menuItems.json' with { type: 'json' }
 
 export default (value) => {
    for (let i = 0; data.benedict.length > i; i++)
