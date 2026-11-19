@@ -1,0 +1,106 @@
+/* 1.5.1 layout stylesheet */
+
+/* menu css layout controls */
+#menu {
+   width: 60%;
+   margin: auto;
+}
+
+/* menu header css layout controls */
+#menu h2 {
+   text-align: center;
+}
+
+/* menu css figure controls */
+#menu figure {
+   display: inline-block;
+   position: relative;
+   width : 320px;
+   height: 320px;
+   margin: 20px;
+   bottom: 0px;
+}
+
+#menu figure>figcaption {
+   text-align: center;
+   height: 50px;
+   padding: 1%;
+}
+
+#menu figure>p {
+   height: 244px;
+   text-align: center;
+   margin: 0px;
+   padding: 3%;
+}
+
+/* layout controls for fieldset elements that are siblings of #menu figure tags */
+#menu form {
+   display: inline-block;
+   position: relative;
+   height: 600px;
+   width : 310px;
+   margin: 18px;
+}
+
+/* layout controls for fieldset elements that are siblings of #menu a tags */
+#menu form fieldset {
+   height: 40px;
+   margin: 12px;
+   padding: 6px;
+}
+
+#menu form label {
+   padding: 7px 7px 7px 1px;
+}
+
+#menu form>h3 {
+   margin: auto;
+   text-align: center;
+}
+
+.cost {
+   display: inline-block;
+   margin-left: 7px;
+}
+
+.remove {
+   margin-left: 92%;
+}
+
+.hint {
+   margin: auto;
+}
+
+.error {
+   width : 100%;
+   height: 5px;
+   margin: 0px;
+   margin-left: 20px;
+}
+
+#menu form button {
+   width: 100px;
+   height: 25px;
+   margin-left: 15px;
+   margin-top: 5px;
+}
+
+.add {
+   position: relative;
+   top: 15px;
+}
+
+#menu fieldset button {
+   height: 25px;
+   width: 35px;
+}
+
+.quantity {
+   margin-left: 15px;
+   text-align: center;
+}
+
+.tip {
+   margin: 0px 0px 0px 5px;
+}

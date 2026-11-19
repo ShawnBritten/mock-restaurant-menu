@@ -1,0 +1,108 @@
+/* 1.5.1 theme stylesheet */
+
+/* css theme control for #menu figure tags */
+.light #menu figure {
+   background-color: white;
+   border-style: groove;
+   border: 1px black solid;
+}
+
+#menu figure {
+   border-radius: 15px 15px;
+   -moz-box-shadow: 0px 0px 10px black;
+   -webkit-box-shadow: 0px 0px 10px black;
+   box-shadow: 0px 0px 10px black;
+   border-style: outset;
+}
+
+/* css theme control for figure direct child figcaption tags */
+#menu figure>figcaption {
+   border-top-left-radius: 15px 15px;
+   border-top-right-radius: 15px 15px;
+   color: white;
+   background-color: hsla(0, 0%, 0%, 0.15);
+}
+
+/* css theme control for figure direct child p tags */
+#menu figure>p {
+   visibility: hidden;
+   border-bottom-left-radius: 15px 15px;
+   border-bottom-right-radius: 15px 15px;
+   color  : white;
+   background-color: hsla(0, 0%, 0%, 0.15);
+}
+
+#menu figure:hover>p {
+   visibility: visible;
+}
+
+/* theme controls for fieldset elements that are siblings of #menu a tags */
+#menu form {
+   border-radius: 15px 15px;
+   border: 1px solid black;
+   border-style: outset;
+   -moz-box-shadow: 0px 0px 10px black;
+   -webkit-box-shadow: 0px 0px 10px black;
+   box-shadow: 0px 0px 10px black;
+}
+
+#menu form fieldset {
+   border: none;
+}
+
+.hint {
+   color: hsla(120, 100%, 60%, 1);
+}
+
+.error {
+   color: red;
+}
+
+.add:hover {
+   cursor: pointer;
+   background-color: hsla(120, 100%, 70%, 1);
+   border-style: groove;
+}
+
+.remove:hover {
+   cursor: pointer;
+   /* background-color: hsla(0, 100%, 50%, 1);
+   border-style: groove; */
+}
+
+#menu form button {
+   border: 1px solid black;
+   border-radius: 5px 5px;
+}
+
+/* css class definitions and initializations for theme styles */
+.hot:hover {
+   border-color: hsla(0, 100%, 80%, 1);
+   background-color: hsla(0, 100%, 80%, 1);
+}
+
+.cool:hover {
+   border-color: hsla(180, 100%, 80%, 1);
+   background-color: hsla(180, 100%, 80%, 1);
+}
+
+/* individual #menu item theme styles */
+#classic {
+   background-image: url("../../pictures/benedict/IMG_2063.jpg");
+}
+
+#florentine {
+   background-image: url("../../pictures/benedict/florentine.jpg");
+}
+
+#norwegian {
+   background-image: url("../../pictures/benedict/IMG_2063.jpg");
+}
+
+#princess {
+   background-image: url("../../pictures/benedict/princess.jpg");
+}
+
+#sardou {
+   background-image: url("../../pictures/benedict/IMG_2063.jpg");
+}

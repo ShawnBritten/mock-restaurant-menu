@@ -1,0 +1,50 @@
+/* 1.5.1 font stylesheet */
+
+/* menu css font controls */
+#menu {
+   text-transform: capitalize;
+}
+
+#menu h2 {
+   font-size: 50px;
+   font-family: "segoe script", "segoe print", "segoe ui";
+   font-weight: bold;
+}
+
+/* menu figure css font controls */
+#menu figure figcaption {
+   font-size: 40px;
+   font-family: 'Aller Display', bahnschrift, verdana, "sans serif";
+}
+
+#menu figure>p {
+   font-family: 'franklin gothic' ,constantia;
+   font-style : bold;
+   font-size: 20px;
+}
+
+.cost {
+   text-indent: 10px;
+   font-size: 20px;
+   font-family: constantia;
+   font-style : italic;
+}
+
+#menu form fieldset>legend {
+   font-size: 18px;
+}
+
+#menu form>h3 {
+   font-size: 40px;
+   font-family: 'Aller Display', bahnschrift, verdana, "sans serif";
+}
+
+.error {
+   font-size: 16px;
+   font-style: italic;
+}
+
+.tip {
+   font-size: 12px;
+   text-transform: lowercase;
+}
